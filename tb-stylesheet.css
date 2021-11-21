@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, san-serif;
+    font-size: 1.6rem;
+      line-height: 1.5;
+    text-align: center;
+  }
+      img {
+        max-width: 100%;
+      display: block;
+      height: auto;
+      margin: 0 auto;
+    }
+  #tribute-info{
+    font-size: 18px;
+      line-height: 1.5;
+    text-align: left;
+    padding: 40px
+      display: block;
+  }
+  #img-caption{
+    font-size: 15px
+  }
