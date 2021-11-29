@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!--Document type is HTML5-->
+<html lang="en"><!--HTML tag, language is english-->
+
+<head><!--Begining of the header. Contains the title and links for CSS and JS-->
+    <meta charset="UTF-8"><!--Caracter set-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Broweser compatablility settings-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Veiwport default settings-->
+    <title>Calculator</title><!-- Title of page. Displays in the tab for the page-->
+    <Link href="styles.css" rel ="stylesheet"><!--Link to CSS style sheet-->
+    <script src="script.js" defer></script><!-- Link to Java Script file.-->
+</head>
+
+<body><!--Start of the bodt of the page. Will display on the page-->
+
+   <div class="calculator-grid"><!--Division the calculator grid will be defined in.-->
+
+<!--Division of the output field of the calculator. -->
+         <div class="output">  
+            <div  data-previous-operand class="previous-operand"></div><!--The output field has an upper section for the previous operand...-->
+            <div data-current-operand class="current-operand"></div><!-- ...and a lower section for the current operand. -->
+         </div>
+
+<!--Calculator buttons-->
+         <button  data-all-clear class ="span-two">AC</button><!--All clear button that takes up two spaces-->
+         <button data-delete>DEL</button><!--Delete button-->
+         <button data-operation>÷</button><!--Divition operator button-->
+         <button data-number>1</button><!--Number one button-->
+         <button data-number>2</button><!--Number two button-->
+         <button data-number>3</button><!--Number three button-->
+         <button data-operation>x</button><!--Multiplication operator button-->
+         <button data-number>4</button><!--Number four button-->
+         <button data-number>5</button><!--Number five button-->
+         <button data-number>6</button><!--Number six button-->
+         <button data-operation>+</button><!--Addition operator button-->
+         <button data-number>7</button><!--Number seven button-->
+         <button data-number>8</button><!--Number eight button-->
+         <button data-number>9</button><!--Number nine button-->
+         <button data-operation>-</button><!--Subtraction operator button-->
+         <button data-number>.</button><!--Number decimal button-->
+         <button data-number>0</button><!--Number zero button-->
+         <button data-equals class="span-two">=</button><!--Equals button that takes up two spaces-->
+
+   </div>
+
+</body>
+
+</html>
